@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
 import iconNotify from '../src/assets/notify.png';
-import women from '../src/assets/head.png';
+import iconCircle from '../src/assets/circle.png';
+
 
 function App() {
   return (
     <div className="bodypage">
-      <div className="title">
-        <p className="textheader">Hola, Camila</p>
+        <div className="title">
+          <p className="textheader">Hola, Camila</p>
         </div>
         <div className="icon"><img src={iconNotify}/></div>
         <div className="invest_card">
@@ -40,9 +41,23 @@ function App() {
               </div>
           </div>
           
-
+          
         </div>
-
+          
+            <p className="tittle2">Tus metas</p>
+            <div className="iconCircle"><img src={iconCircle}/></div>
+        <div className="goals1">
+            <div className="frameIsland">
+              <div className="imgIsland"/>
+            </div>
+            <p className="textGoal1">Viaje a islas Canarias</p>
+        </div>  
+        <div className="goals2">
+            <div className="framePc">
+              <div className="imgPc"/>
+            </div>
+            <p className="textGoal2">Macbook Pro</p>
+        </div> 
       
     </div>
   );
