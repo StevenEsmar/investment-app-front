@@ -9,7 +9,7 @@ function Goals() {
     return(
         <div>
             <p className="tittle2">Tus metas</p>
-            <div className="iconCircle"><img src={iconCircle}/></div>
+            <a href="#goals"><div className="iconCircle"><img src={iconCircle}/></div></a>
                 <div className="goals1">
                 <div className="frameIsland">
                 <div className="imgIsland"/>

@@ -1,4 +1,51 @@
 
+@media screen and (min-width:600px) and (max-width:1900px) {
+  /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+
+
+  .bodypage{
+    position: relative;
+    width: 98%;
+    height: 1956px;
+    margin: auto;
+    
+    background: #aa2020;}
+  .title{display: flex;
+    flex-direction: row;
+    padding: 0px;
+    
+    position: absolute;
+    width: 268px;
+    height: 25px;
+    left: 24px;
+    top: 54px;}
+
+  .textheader{
+    position: static;
+    width: 268px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #58506B;
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 10px 0px;
+  }
+  .icon{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 327px;
+    top: 54px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .bodypage{
     position: relative;

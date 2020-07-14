@@ -16,7 +16,7 @@ function App() {
       <div className="title">
         <p className="textheader">Hola, Camila</p>
       </div>
-      <div className="icon"><img src={iconNotify}/></div>
+      <a href="#notitications"><div className="icon"><img src={iconNotify}/></div></a>
       
       <InvestCard/>
       <Goals/>

@@ -31,8 +31,8 @@ function Portfolio() {
                 <p className="type">Tipo de activo</p>
                 <p className="descriptionType">Renta fija <br/> Depósito a la fija</p>
             </div>
-                <img src={left} className="arrowLeft"></img>
-                <img src={right} className="arrowRight"></img>
+                <a href="#prev"><img src={left} className="arrowLeft"></img></a>
+                <a href="#next"><img src={right} className="arrowRight"></img></a>
                 <p className="advise">Tu dinero se invierte de la forma más eficiente de acuerdo al perfil de riesgo asignado por nuestro RoboAdvisor.</p>
             </div>
         </div>

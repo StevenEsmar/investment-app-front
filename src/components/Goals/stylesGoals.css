@@ -1,4 +1,251 @@
 
+  .tittle2{
+      
+    position: absolute;
+    width: 271px;
+    height: 25px;
+    left: 24px;
+    top: 460px;
+    
+    /* Subtitle 2 */
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    /* 75% */
+    
+    color: #58506B;
+  }
+  .iconCircle{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 327px;
+    top: 480px;
+  }
+
+  .goals1{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    position: absolute;
+    width: 136px;
+    height: 202px;
+    left: 24px;
+    top: 520px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* Card shadow soft */
+
+    box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
+    border-radius: 20px;
+  }
+  
+  .goals2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    position: absolute;
+    width: 136px;
+    height: 202px;
+    left: 193px;
+    top: 520px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* Card shadow soft */
+
+    box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
+    border-radius: 20px;
+  }
+
+  .frameIsland{
+    position: static;
+    width: 40px;
+    height: 40px;
+    left: 20px;
+    top: 20px;
+    
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    margin: 0px 10px;
+
+  }
+
+  .imgIsland{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 20px;
+    top: 20px;
+
+    background-image: url("../../assets/island.png");
+  }
+
+
+  .framePc{
+    
+    position: static;
+    width: 40px;
+    height: 40px;
+    left: 20px;
+    top: 20px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    margin: 0px 10px;
+
+  }
+  .imgPc{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 20px;
+    top: 20px;
+
+    background-image: url("../../assets/pc.png");
+  }
+
+  .textGoal1, .textGoal2{
+    position: static;
+    width: 118px;
+    height: 42px;
+    left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    /* Normal 2 */
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+
+    /* 50% */
+
+    color: #817699;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 0px 10px;
+
+  }
+  .lineVector{
+    
+    position: static;
+    width: 118px;
+    height: 0px;
+    left: 20px;
+    top: 122px;
+
+    /* Background */
+
+    border: 1px solid #FAF9FD;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 2;
+    margin: 0px 10px;
+
+  }
+
+  .frameData{
+    position: static;
+    width: 118px;
+    height: 50px;
+    left: 20px;
+    top: 132px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 3;
+    align-self: center;
+    margin: 0px 10px;
+  }
+  .dataGoals{
+    position: absolute;
+    width: 63px;
+    height: 16px;
+    left: 75px;
+    top: 142px;
+    color: #54D1ED;
+    /* Caption 2 */
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.03em;
+
+  }
+
+  .dataGoals2{
+    position: absolute;
+    width: 63px;
+    height: 14px;
+    left: 75px;
+    top: 158px;
+
+    /* Menu 1 */
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+
+    letter-spacing: -0.03em;
+
+    /* 50% */
+
+    color: #817699;
+  }
+
+  .donutIcon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 145px;
+
+  }
+
+  
+ 
  @media only screen and (max-width: 600px) {
  
 
@@ -246,5 +493,6 @@
       top: 145px;
 
     }
+
     
 }

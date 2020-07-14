@@ -13,11 +13,11 @@ function Media() {
                 <div className="vectorMedia"></div>
                 <p className="textMedia">Esto es AHORRO</p>
                 <p className="textMediaDescription">Conoce como nuestro RobotAdvisor crea el mejor portafolio de inversión para ti.</p>
-                <div className="playMedia"><img src={play} className="playImg"></img></div>
+                <a href="#play"><div className="playMedia"><img src={play} className="playImg"></img></div></a>
             </div>
             <div className="counterMedia">
                 <div className="circles"></div>
-                <div className="circlesOff"></div>
+                <a className="circlesOff"></a>
                 <div className="circlesOff"></div>
                 
             </div>
