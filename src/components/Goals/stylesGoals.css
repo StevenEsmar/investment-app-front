@@ -1,11 +1,11 @@
-
+  
   .tittle2{
       
     position: absolute;
     width: 271px;
     height: 25px;
     left: 24px;
-    top: 460px;
+    top:0px;
     
     /* Subtitle 2 */
     
@@ -28,7 +28,7 @@
     width: 25px;
     height: 25px;
     left: 327px;
-    top: 480px;
+    top: 20px;
   }
 
   .goals1{
@@ -40,7 +40,7 @@
     width: 136px;
     height: 202px;
     left: 24px;
-    top: 520px;
+    top: 55px;
 
     /* White */
 
@@ -60,7 +60,7 @@
     width: 136px;
     height: 202px;
     left: 193px;
-    top: 520px;
+    top: 55px;
 
     /* White */
 
@@ -246,7 +246,7 @@
 
   
  
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 720px) {
  
 
     .tittle2{

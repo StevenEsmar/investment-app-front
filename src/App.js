@@ -20,11 +20,18 @@ const dataPersonal = data.map((data) => {
       <p className="textheader">Hola, {data.name}</p>
       </div>
       <a href="#notitications"><div className="icon"><img src={iconNotify}/></div></a>
-      
+      <div className="investedCard">
       <InvestCard/>
+      </div>
+      <div className="goalsDiv">
       <Goals/>
+      </div>
+      <div className="portfolioDiv">
       <Portfolio/>
+      </div>
+      <div className="mediaDiv">
       <Media/>
+      </div>
       <Blog/>
       <Menu/>
             

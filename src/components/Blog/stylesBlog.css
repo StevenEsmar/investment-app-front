@@ -2,14 +2,14 @@
   
       .blogFrame{
         display: flex;
-        flex-direction: column;
-        padding: 20px;
-  
+        flex-direction: row;
+        padding: 10px;
+        margin: auto;
         position: absolute;
-        width: 287px;
-        height: 304px;
-        left: 24px;
-        top: 1497px;
+        width: 770px;
+        height: 104px;
+        
+        top: 880px;
   
         /* White */
   
@@ -22,12 +22,10 @@
       .text1{
         display: flex;
         flex-direction: row;
-        padding-left: 35px;
-        padding-bottom: 35px;
+        
         position: static;
-        width: 287px;
-        height: 68px;
-        left: 20px;
+        width: 227px;
+        height: 102px;
         top: 20px;
   
         /* White */
@@ -38,9 +36,10 @@
   
         flex: none;
         order: 0;
-        align-self: center;
-        margin: 0px 15px;
+        
+        margin-right: 35px;
       }
+      
       .img1{
         position: static;
         width: 68px;
@@ -53,7 +52,7 @@
         
         flex: none;
         align-self: auto;
-        margin: 17px 30px;
+        margin: 20px -18px;
       }
   
       .img2{
@@ -68,7 +67,7 @@
         
         flex: none;
         align-self: auto;
-        margin: 17px 30px;
+        margin: 20px -18px;
       }
   
       .img3{
@@ -83,26 +82,20 @@
         
         flex: none;
         align-self: auto;
-        margin: 17px 30px;
+        margin: 20px -18px;
       }
       .textBlog{
         display: absolute;
         flex-direction: column;
-        
-  
         position: static;
-        width: 202px;
+        width: 192px;
         height: 68px;
         
-        
-        
-  
         /* Inside Auto Layout */
   
-        
         order: 0;
         align-self: auto;
-        margin: 17px -15px;
+        margin: 17px 5px 0px 0px;
       }
       .textTittle{
         position: static;
@@ -135,11 +128,11 @@
       }
       .textDescription1{
         position: static;
-        width: 202px;
-        height: 42px;
+        width: 162px;
+        height: 62px;
         left: 0px;
         top: 26px;
-  
+        text-align: justify;
         /* Menu 1 */
   
         font-family: Open Sans;
@@ -154,7 +147,7 @@
         /* 75% */
       }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 720px) {
     
       .blogFrame{
         display: flex;

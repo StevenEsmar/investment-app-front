@@ -1,23 +1,59 @@
 
+
 @media screen and (min-width:720px) and (max-width:1900px) {
   /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
 
 
   .bodypage{
-    position: relative;
-    width: 98%;
-    height: 1956px;
-    margin: auto;
-    
-    background: #aa2020;}
-  .title{display: flex;
-    flex-direction: row;
-    padding: 0px;
-    
     position: absolute;
-    width: 268px;
+    width: 100%;
+    height: 1150px;
+    
+    padding-left: 8%;
+    padding-right: 10px;
+    
+    background: #F8F8FC;}
+
+    .investedCard{
+      
+      width: 400px;
+      height: 370px;
+      top: 100px;
+      position: relative;
+    }
+    .goalsDiv{
+      
+      width: 360px;
+      height: 305px;
+      top: -210px;
+      left: 430px;
+      position: relative;
+    }
+    .portfolioDiv{
+      
+      width: 360px;
+      height: 305px;
+      top: -170px;
+      left: 430px;
+      position: relative;
+    }
+    .mediaDiv{
+      
+      width: 400px;
+      height: 390px;
+      top: 475px;
+      position: relative;
+      margin-right: 0px;
+      position: absolute;
+    }
+
+  .title{display: flex;
+    
+    padding: 0px;
+    text-align: left;
+    position: absolute;
+    width: 700px;
     height: 25px;
-    left: 24px;
     top: 54px;}
 
   .textheader{
@@ -29,19 +65,20 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 30px;
     line-height: 25px;
     color: #58506B;
     flex: none;
     order: 1;
-    align-self: center;
-    margin: 10px 0px;
+    
+    margin-top: 0px;
+    margin-left: 30px;
   }
   .icon{
     position: absolute;
     width: 25px;
     height: 25px;
-    left: 327px;
+    left: 850px;
     top: 54px;
   }
 }

@@ -4,7 +4,7 @@
       width: 271px;
       height: 25px;
       left: 24px;
-      top: 748px;
+      top: 0px;
 
       /* Subtitle 2 */
 
@@ -32,7 +32,7 @@
       width: 64px;
       height: 21px;
       right: 24px;
-      top: 768px;
+      top: 20px;
 
       /* Success Soft */
 
@@ -82,7 +82,7 @@
       width: 327px;
       height: 229px;
       left: 24px;
-      top: 813px;
+      top: 60px;
 
       /* White */
 
@@ -392,7 +392,7 @@
     }
 
  
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 720px) {
   
 
     .tittleBrief{

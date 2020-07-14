@@ -4,7 +4,7 @@
     width: 271px;
     height: 25px;
     left: 24px;
-    top: 1052px;
+    top: 0px;
 
     /* Subtitle 2 */
 
@@ -20,7 +20,7 @@
 
     /* 75% */
 
-    color: #58506B;
+    color: #6b6b50;
   }
 
   .media{
@@ -28,7 +28,7 @@
     width: 330px;
     height: 290px;
     left: 24px;
-    top: 1137px;
+    top: 55px;
 
     /* White */
 
@@ -140,7 +140,7 @@
     width: 50px;
     height: 20px;
     left: 38px;
-    top: 1437px;
+    top: 347px;
 
   }
   .circles{
@@ -213,7 +213,7 @@
   
       .media{
         position: absolute;
-        width: 330px;
+        width: 327px;
         height: 290px;
         left: 24px;
         top: 1137px;
@@ -229,7 +229,7 @@
   
       .thumbImg{
         position: absolute;
-        width: 330px;
+        width: 327px;
         height: 241px;
         left:0px;
         top: 0px;
@@ -241,7 +241,7 @@
       .vectorMedia{
         
         height: 80px; 
-        width: 270px;
+        width: 267px;
         background-image: url("../../assets/Vector.png");
         position: absolute; 
         bottom: 0; 
@@ -281,7 +281,7 @@
         width: 287px;
         height: 32px;
         left: 20px;
-        bottom: -8px;
+        bottom: -7px;
   
         /* Caption 1 */
   
