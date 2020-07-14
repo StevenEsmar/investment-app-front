@@ -4,6 +4,9 @@ import iconNotify from '../src/assets/notify.png';
 import iconCircle from '../src/assets/circle.png';
 import donut from '../src/assets/s_donut.png';
 import donut2 from '../src/assets/s_donut2.png';
+import dataCircle from '../src/assets/data.png';
+import left from '../src/assets/leftArrow.png';
+import right from '../src/assets/rightArrow.png';
 
 
 function App() {
@@ -74,8 +77,36 @@ function App() {
                 
 
             </div>
+            
         </div> 
-      
+            <p className="tittleBrief">Conoce tu portafolio</p>
+            <div className="status">
+              <p className="textStatus"> Estratega</p>
+            </div>
+            <div className="portfolio">
+            <img src={dataCircle} className="dataCircle"/>
+            <p className="nameRobot">RoboAdvisor</p>
+            <p className="numFunding">10 Fondos</p>
+            <div className="robot">
+                <div className="robotimg"></div>
+              </div>
+              <div className="frame28">
+                
+                <div className="logo"></div>
+                <div className="frame31">
+                    <p className="textframe31">%15</p>
+                    
+                </div>
+                <p className="description1">FIC Old Mutual Efectivo</p>
+                <p className="description2">$240.000</p>
+                <p className="type">Tipo de activo</p>
+                <p className="descriptionType">Renta fija <br/> Depósito a la fija</p>
+              </div>
+              <img src={left} className="arrowLeft"></img>
+              <img src={right} className="arrowRight"></img>
+              <p className="advise">Tu dinero se invierte de la forma más eficiente de acuerdo al perfil de riesgo asignado por nuestro RoboAdvisor.</p>
+            </div>
+            <p className="descriptionRobot">Los P*t@s del ahorro</p>  
     </div>
   );
 }
