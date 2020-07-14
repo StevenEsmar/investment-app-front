@@ -7,6 +7,7 @@ import donut2 from '../src/assets/s_donut2.png';
 import dataCircle from '../src/assets/data.png';
 import left from '../src/assets/leftArrow.png';
 import right from '../src/assets/rightArrow.png';
+import play from '../src/assets/play.png';
 
 
 function App() {
@@ -106,7 +107,64 @@ function App() {
               <img src={right} className="arrowRight"></img>
               <p className="advise">Tu dinero se invierte de la forma más eficiente de acuerdo al perfil de riesgo asignado por nuestro RoboAdvisor.</p>
             </div>
-            <p className="descriptionRobot">Los P*t@s del ahorro</p>  
+            <p className="descriptionRobot">Los P*t@s del ahorro</p>
+            <div className="media">
+                <div className="thumbImg"></div>
+                <div className="vectorMedia"></div>
+                <p className="textMedia">Esto es AHORRO</p>
+                <p className="textMediaDescription">Conoce como nuestro RobotAdvisor crea el mejor portafolio de inversión para ti.</p>
+                <div className="playMedia"><img src={play} className="playImg"></img></div>
+            </div>
+            <div className="counterMedia">
+                <div className="circles"></div>
+                <div className="circlesOff"></div>
+                <div className="circlesOff"></div>
+                
+            </div>
+            <div className="blogFrame">
+                <div className="text1">
+                  <div className="textBlog">
+                    <p className="textTittle">10 gastos que debes evitar</p>
+                    <p className="textDescription1">Aunque el 66% de los adultos recibió educación para el ahorro, apenas el 44% ahorra de manera fomal.</p>
+                  </div>
+                  <div className="img1"></div>
+                </div>
+
+                <div className="text1">
+                  <div className="textBlog">
+                    <p className="textTittle">10 gastos que debes evitar</p>
+                    <p className="textDescription1">Aunque el 66% de los adultos recibió educación para el ahorro, apenas el 44% ahorra de manera fomal.</p>
+                  </div>
+                  <div className="img2"></div>
+                </div>
+
+                <div className="text1">
+                  <div className="textBlog">
+                    <p className="textTittle">10 gastos que debes evitar</p>
+                    <p className="textDescription1">Aunque el 66% de los adultos recibió educación para el ahorro, apenas el 44% ahorra de manera fomal.</p>
+                  </div>
+                  <div className="img3"></div>
+                </div>
+
+            </div>  
+          <div className="menuFrame">
+            <div className="options">
+              <div className="more">
+
+              </div>
+              <div className="profile">
+
+              </div>
+              <div className="history">
+
+              </div>
+              <div className="home">
+                  
+              </div>
+
+            </div>
+            
+          </div>  
     </div>
   );
 }
