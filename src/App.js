@@ -7,14 +7,17 @@ import Blog from './components/Blog/Blog';
 import Media from './components/Media/Media';
 import Portfolio from './components/Portfolio/Portfolio';
 import Menu from './components/Menu/Menu';
+import data from './data/camila.json';
 
-function App() {
+const dataPersonal = data.map((data) => {
+
+
   return (
     <div className="bodypage">
 
       
       <div className="title">
-        <p className="textheader">Hola, Camila</p>
+      <p className="textheader">Hola, {data.name}</p>
       </div>
       <a href="#notitications"><div className="icon"><img src={iconNotify}/></div></a>
       
@@ -26,8 +29,11 @@ function App() {
       <Menu/>
             
     </div>
-    
-  );
-}
+  )
+  }
+)
 
+function App() {
+  return dataPersonal
+}
 export default App;
