@@ -1435,6 +1435,7 @@
       left: calc(50% - 327px/2);
       bottom: 54px;
 
+
     }
     .options{
       display: flex;
@@ -1447,7 +1448,57 @@
       left: 17px;
       top: 35px;
 
+
     }
+
+    .invest{
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      left: 139px;
+      top: 0px;
+    }
+
+    .container{
+      position: absolute;
+      width: 327px;
+      height: 60px;
+      left: 0px;
+      top: 25px;
+
+      /* White */
+
+      background: #FFFFFF;
+      /* Card shadow soft */
+
+      box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
+    }
+
+    .elipse{
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      left: 134px;
+      top: -5px;
+
+      /* White */
+
+      background: #FFFFFF;
+    }
+
+    .rectangle{
+      position: absolute;
+      width: 327px;
+      height: 60px;
+      left: 0px;
+      top: 25px;
+
+      /* White */
+
+      background: #FFFFFF;
+      border-radius: 16px;
+    }
+
     .more{
       display: flex;
       flex-direction: column;
@@ -1467,5 +1518,187 @@
       align-self: center;
       margin: 27px 0px;
     }
+
+    .profile{
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+
+      position: static;
+      width: 37px;
+      height: 41px;
+      left: 192px;
+      top: 0px;
+
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 3;
+      align-self: center;
+      margin: 27px 0px;
+    }
+    .history{
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+
+      position: static;
+      width: 37px;
+      height: 41px;
+      left: 64px;
+      top: 0px;
+
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 1;
+      align-self: center;
+      margin: 27px 0px;
+    }
+    .home{
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+
+      position: static;
+      width: 37px;
+      height: 41px;
+      left: 0px;
+      top: 0px;
+
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 0;
+      align-self: center;
+      margin: 27px 0px;
+    }
+
+    .nameOption{
+      position: static;
+      width: 37px;
+      height: 14px;
+      left: 0px;
+      top: 27px;
+
+      /* Menu 1 */
+
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 14px;
+      /* identical to box height */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: -0.03em;
+
+      /* 25% */
+
+      color: #A99DC6;
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 1;
+      align-self: center;
+      margin: 0px 3px;
+    }
+    
+    .iconOption1{
+      position: static;
+      width: 37px;
+      height: 14px;
+      left: 0px;
+      top: 27px;
+
+      /* Menu 1 */
+
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 14px;
+      /* identical to box height */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: -0.03em;
+
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 1;
+      align-self: center;
+      margin: 0px 3px;
+    }
+
+    .iconOption2{
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+
+      position: static;
+      width: 37px;
+      height: 41px;
+      left: 64px;
+      top: 0px;
+
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 1;
+      align-self: center;
+      margin: 27px 0px;
+    }
+
+    .iconOption3{
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+
+      position: static;
+      width: 37px;
+      height: 41px;
+      left: 192px;
+      top: 0px;
+
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 3;
+      align-self: center;
+      margin: 27px 0px;
+    }
+
+    .iconOption4{
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+
+      position: static;
+      width: 37px;
+      height: 41px;
+      left: 256px;
+      top: 0px;
+
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 4;
+      align-self: center;
+      margin: 27px 0px;
+    }
+    
 }
 

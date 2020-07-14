@@ -1,0 +1,240 @@
+
+  
+  @media only screen and (max-width: 600px) {
+    
+      .menuFrame{
+        
+        overflow: hidden;
+        position: fixed;
+        width: 327px;
+        height: 105px;
+        left: 45px;
+        bottom: 34px;
+        
+        
+      }
+
+      .containerMenu{
+        position: absolute;
+        width: 327px;
+        height: 60px;
+        left: 0px;
+        top: 45px;
+        
+        /* White */
+
+        background: #FFFFFF;
+        border-radius: 16px;
+      }
+  
+      .options{
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        
+        position: absolute;
+        width: 293px;
+        height: 41px;
+        left: 17px;
+        top: 10px;
+      }
+      .home{
+        display: flex;
+        flex-direction: column;
+        
+        
+        position: static;
+        width: 37px;
+        height: 41px;
+        left: 0px;
+        top: 0px;
+        
+        /* Inside Auto Layout */
+        
+        flex: none;
+        order: 0;
+        align-self: center;
+        margin: 27px 6px;
+      }
+      .home:hover{
+            
+            background-color: rgb(97, 92, 143) ;
+            border-radius: 14px;
+        
+      }
+      
+      .optionTittle{
+               
+        position: static;
+        width: 37px;
+        height: 14px;
+        left: 0px;
+        top: 27px;
+
+        /* Menu 1 */
+
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 14px;
+        /* identical to box height */
+
+        display: flexbox;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.03em;
+
+        /* 25% */
+
+        color: #A99DC6;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        align-self: center;
+        margin: 0px 3px;
+        text-decoration: none;
+      }
+
+      
+      .imgHome{
+          
+        position: static;
+        width: 24px;
+        height: 24px;
+        left: 6.5px;
+        top: 0px;
+       
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        align-self: center;
+        margin: 0px 3px;
+      }
+      
+      
+      .textInvest{
+        position: static;
+        width: 37px;
+        height: 14px;
+        left: 128px;
+        
+        
+        /* Menu 1 */
+        
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 14px;
+        /* identical to box height */
+        
+        display: flexbox;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.03em;
+        
+        /* 25% */
+        
+        color: #A99DC6;
+        
+        /* Inside Auto Layout */
+        
+        flex: none;
+        order: 2;
+        align-self: flex-end;
+        margin: 7px 0px;
+      }
+      .history{
+        display: flex;
+        flex-direction: column;
+        
+        
+        position: static;
+        width: 37px;
+        height: 41px;
+        left: 64px;
+        top: 0px;
+        
+        
+        /* Inside Auto Layout */
+        
+        flex: none;
+        order: 1;
+        align-self: center;
+        margin: 27px 23px;
+      }
+      .history:hover{
+        
+        background-color: rgb(97, 92, 143) ;
+        border-radius: 14px;
+    
+      }
+
+      .profile{
+        display: flex;
+        flex-direction: column;
+        
+        
+        position: static;
+        width: 37px;
+        height: 41px;
+        left: 192px;
+        top: 0px;
+        
+        
+        /* Inside Auto Layout */
+        
+        flex: none;
+        order: 3;
+        align-self: center;
+        margin: 27px 23px;
+      }
+      .profile:hover{
+        
+        background-color: rgb(97, 92, 143) ;
+        border-radius: 14px;
+    
+      }
+
+      .more{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        
+        position: static;
+        width: 37px;
+        height: 41px;
+        left: 256px;
+        top: 0px;
+        
+        
+        /* Inside Auto Layout */
+        
+        flex: none;
+        order: 4;
+        align-self: center;
+        margin: 27px 0px;
+      }
+      
+      .more:hover{
+        
+        background-color: rgb(97, 92, 143) ;
+        border-radius: 14px;
+    
+      }
+      .buttonInvest{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 125px;
+        top: -30px;
+        background-image: url("../assets/invest.png");
+      }
+  }
+  
+  

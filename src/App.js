@@ -9,10 +9,13 @@ import left from '../src/assets/leftArrow.png';
 import right from '../src/assets/rightArrow.png';
 import play from '../src/assets/play.png';
 
+import Menu from '../src/components/Menu';
 
 function App() {
   return (
     <div className="bodypage">
+
+      
         <div className="title">
           <p className="textheader">Hola, Camila</p>
         </div>
@@ -147,25 +150,10 @@ function App() {
                 </div>
 
             </div>  
-          <div className="menuFrame">
-            <div className="options">
-              <div className="more">
-
-              </div>
-              <div className="profile">
-
-              </div>
-              <div className="history">
-
-              </div>
-              <div className="home">
-                  
-              </div>
-
-            </div>
-            
-          </div>  
+          
+            <Menu/>
     </div>
+    
   );
 }
 
