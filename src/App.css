@@ -588,6 +588,7 @@
       height: 42px;
       left: 20px;
       padding-top: 20px;
+      padding-bottom: 10px;
 
       /* Normal 2 */
 
@@ -612,6 +613,90 @@
       order: 1;
       align-self: center;
       margin: 0px 10px;
+
+    }
+    .lineVector{
+      
+      position: static;
+      width: 118px;
+      height: 0px;
+      left: 20px;
+      top: 122px;
+
+      /* Background */
+
+      border: 1px solid #FAF9FD;
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 2;
+      margin: 0px 10px;
+
+    }
+
+    .frameData{
+      position: static;
+      width: 118px;
+      height: 50px;
+      left: 20px;
+      top: 132px;
+
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 3;
+      align-self: center;
+      margin: 0px 10px;
+    }
+    .dataGoals{
+      position: absolute;
+      width: 63px;
+      height: 16px;
+      left: 75px;
+      top: 142px;
+      color: #54D1ED;
+      /* Caption 2 */
+
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: -0.03em;
+
+    }
+
+    .dataGoals2{
+      position: absolute;
+      width: 63px;
+      height: 14px;
+      left: 75px;
+      top: 158px;
+
+      /* Menu 1 */
+
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 14px;
+      /* identical to box height */
+
+      letter-spacing: -0.03em;
+
+      /* 50% */
+
+      color: #817699;
+    }
+
+    .donutIcon{
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      left: 20px;
+      top: 145px;
 
     }
 }
