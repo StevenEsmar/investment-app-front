@@ -1,5 +1,5 @@
 
-@media screen and (min-width:600px) and (max-width:1900px) {
+@media screen and (min-width:720px) and (max-width:1900px) {
   /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
 
 
@@ -46,10 +46,11 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
   .bodypage{
     position: relative;
-    width: 375px;
+    width: 380px;
+    left: 10px;
     height: 1956px;
     background: #F8F8FC;}
   .title{display: flex;
