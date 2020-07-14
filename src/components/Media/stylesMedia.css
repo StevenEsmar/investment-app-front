@@ -185,7 +185,7 @@
     
   } 
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 720px) {
     
       .descriptionRobot{
         position: absolute;
@@ -281,7 +281,7 @@
         width: 287px;
         height: 32px;
         left: 20px;
-        bottom: 6px;
+        bottom: 0px;
   
         /* Caption 1 */
   
