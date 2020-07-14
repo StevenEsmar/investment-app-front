@@ -1,0 +1,160 @@
+
+  @media only screen and (max-width: 600px) {
+    
+      .blogFrame{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+  
+        position: absolute;
+        width: 287px;
+        height: 304px;
+        left: 24px;
+        top: 1497px;
+  
+        /* White */
+  
+        background: #FFFFFF;
+        /* Card shadow soft */
+  
+        box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
+        border-radius: 20px;
+      }
+      .text1{
+        display: flex;
+        flex-direction: row;
+        padding-left: 35px;
+        padding-bottom: 35px;
+        position: static;
+        width: 287px;
+        height: 68px;
+        left: 20px;
+        top: 20px;
+  
+        /* White */
+  
+        background: #FFFFFF;
+  
+        /* Inside Auto Layout */
+  
+        flex: none;
+        order: 0;
+        align-self: center;
+        margin: 0px 15px;
+      }
+      .img1{
+        position: static;
+        width: 68px;
+        height: 68px;
+        left: 249px;
+        background: url("../../assets/cel.png");
+        border-radius: 20px;
+        
+        /* Inside Auto Layout */
+        
+        flex: none;
+        align-self: auto;
+        margin: 17px 30px;
+      }
+  
+      .img2{
+        position: static;
+        width: 68px;
+        height: 68px;
+        left: 249px;
+        background: url("../../assets/hands.png");
+        border-radius: 20px;
+        
+        /* Inside Auto Layout */
+        
+        flex: none;
+        align-self: auto;
+        margin: 17px 30px;
+      }
+  
+      .img3{
+        position: static;
+        width: 68px;
+        height: 68px;
+        left: 249px;
+        background: url("../../assets/card.png");
+        border-radius: 20px;
+        
+        /* Inside Auto Layout */
+        
+        flex: none;
+        align-self: auto;
+        margin: 17px 30px;
+      }
+      .textBlog{
+        display: absolute;
+        flex-direction: column;
+        
+  
+        position: static;
+        width: 202px;
+        height: 68px;
+        
+        
+        
+  
+        /* Inside Auto Layout */
+  
+        
+        order: 0;
+        align-self: auto;
+        margin: 17px -15px;
+      }
+      .textTittle{
+        position: static;
+        width: 202px;
+        height: 21px;
+        left: 0px;
+        top: 0px;
+        
+        /* Normal 1 */
+  
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height, or 150% */
+  
+        display: flex;
+        align-items: center;
+  
+        /* 50% */
+  
+        color: #817699;
+  
+        /* Inside Auto Layout */
+  
+        flex: none;
+        order: 0;
+        margin: 0px 0px;
+      }
+      .textDescription1{
+        position: static;
+        width: 202px;
+        height: 42px;
+        left: 0px;
+        top: 26px;
+  
+        /* Menu 1 */
+  
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 14px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.03em;
+  
+        /* 75% */
+      }
+     
+  }
+  
+  

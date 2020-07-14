@@ -8,7 +8,7 @@
         position: fixed;
         width: 327px;
         height: 105px;
-        left: 45px;
+        left: 24px;
         bottom: 34px;
         
         
@@ -233,7 +233,7 @@
         height: 50px;
         left: 125px;
         top: -30px;
-        background-image: url("../assets/invest.png");
+        background-image: url("../../assets/invest.png");
       }
   }
   

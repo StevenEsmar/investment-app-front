@@ -1,10 +1,10 @@
 import React from 'react';
 import './styles.css';
-import home from '../assets/home.png'
-import profile from '../assets/profile.png';
-import history from '../assets/history.png';
-import mas from '../assets/moree.png';
-import investImg from '../assets/invest.png';
+import home from '../../assets/home.png';
+import profile from '../../assets/profile.png';
+import history from '../../assets/history.png';
+import mas from '../../assets/moree.png';
+
 
 function Menu() {
     

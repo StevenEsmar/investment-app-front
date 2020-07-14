@@ -1,0 +1,188 @@
+
+  @media only screen and (max-width: 600px) {
+    
+      .descriptionRobot{
+        position: absolute;
+        width: 271px;
+        height: 25px;
+        left: 24px;
+        top: 1052px;
+  
+        /* Subtitle 2 */
+  
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        /* identical to box height */
+  
+        display: flex;
+        align-items: center;
+  
+        /* 75% */
+  
+        color: #58506B;
+      }
+  
+      .media{
+        position: absolute;
+        width: 330px;
+        height: 290px;
+        left: 24px;
+        top: 1137px;
+  
+        /* White */
+  
+        background: linear-gradient(180deg, rgba(44, 82, 216, 0) 0%, rgba(44, 82, 216, 0.4) 100%), #54D1ED;
+        /* Card shadow 1 */
+  
+        box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
+        border-radius: 20px;
+      }
+  
+      .thumbImg{
+        position: absolute;
+        width: 330px;
+        height: 241px;
+        left:0px;
+        top: 0px;
+        border-radius: 20px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 33.85%, rgba(0, 0, 0, 0.4) 100%), url("../../assets/multim.png");
+      }
+  
+  
+      .vectorMedia{
+        
+        height: 70px; 
+        width: 270px;
+        background: linear-gradient(180deg, rgba(44, 82, 216, 0) 0%, rgba(44, 82, 216, 0.4) 100%), #54D1ED;
+        position: absolute; 
+        bottom: 0; 
+        left: 0px; 
+        right: -30px; 
+        padding: 12px 30px; 
+        border-radius: 40%; 
+        text-align:center;  
+      }
+  
+      .textMedia{
+        position: absolute;
+        width: 190px;
+        height: 33px;
+        left: 20px;
+        bottom: 23px;
+  
+        /* Title 2 */
+  
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+        /* identical to box height */
+  
+        display: flex;
+        align-items: center;
+  
+        /* White */
+  
+        color: #FFFFFF;
+      }
+  
+      .textMediaDescription{
+        position: absolute;
+        width: 287px;
+        height: 32px;
+        left: 20px;
+        bottom: 6px;
+  
+        /* Caption 1 */
+  
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.03em;
+  
+        /* White */
+  
+        color: #FFFFFF;
+      }
+  
+      .playMedia{
+        position: absolute;
+        left: 44.04%;
+        right: 43.73%;
+        top: 27.59%;
+        bottom: 58.62%;
+      }
+  
+      .playImg{
+        position: absolute;
+        left: 8.33%;
+        right: 8.33%;
+        top: 8.33%;
+        bottom: 8.33%;
+  
+        /* White */
+  
+        
+      }
+  
+      .counterMedia{
+        display: flex;
+        flex-direction: row;
+        padding: 5px 0px;
+  
+        position: absolute;
+        width: 50px;
+        height: 20px;
+        left: 38px;
+        top: 1437px;
+  
+      }
+      .circles{
+        position: static;
+        width: 15px;
+        height: 15px;
+        left: 0px;
+        top: 5px;
+  
+        background: linear-gradient(180deg, rgba(44, 82, 216, 0) 0%, rgba(44, 82, 216, 0.4) 100%), #54D1ED;
+        background-blend-mode: multiply, normal;
+  
+        /* Inside Auto Layout */
+        border-radius: 15px;
+        
+        flex: none;
+        order: 0;
+        align-self: center;
+        margin: 10px 6px;
+      }
+      .circlesOff{
+        position: static;
+        width: 15px;
+        height: 15px;
+        left: 0px;
+        top: 5px;
+  
+        border-radius: 15px;
+        /* Primary Soft */
+  
+        background: #D7C7FF;
+  
+        /* Inside Auto Layout */
+  
+        flex: none;
+        order: 2;
+        align-self: center;
+        margin: 10px 6px;
+      }
+      
+  }
+  
+  
